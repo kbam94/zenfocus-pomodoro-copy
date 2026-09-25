@@ -1,0 +1,7 @@
+{
+  "name": "ZenFocus Pomodoro",
+  "description": "A polished, distraction-free Pomodoro timer with session tracking and persistent storage.",
+  "model": "google/gemma-4-31b-it",
+  "prompt": "Build me a polished mobile-first Pomodoro focus timer. Include 25-minute focus sessions, 5-minute short breaks, and 15-minute long breaks. Users should be able to start, pause, resume, and reset the timer and switch between modes. Track completed focus sessions and show today's session count. Persist the session count in localStorage. Use a dark distraction-free interface with a large timer display. Use only HTML, CSS, and plain JavaScript.",
+  "generatedAt": "2026-09-25T07:48:40.582Z"
+}
