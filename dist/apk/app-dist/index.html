@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ZenFocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>ZenFocus</h1>
+            <div class="stats">
+                <span id="session-count">Sessions today: 0</span>
+            </div>
+        </header>
+
+        <div class="mode-selector">
+            <button class="mode-btn active" data-mode="focus">Focus</button>
+            <button class="mode-btn" data-mode="short">Short Break</button>
+            <button class="mode-btn" data-mode="long">Long Break</button>
+        </div>
+
+        <div class="timer-display">
+            <span id="time-left">25:00</span>
+        </div>
+
+        <div class="controls">
+            <button id="start-pause-btn" class="main-btn">Start</button>
+            <button id="reset-btn" class="secondary-btn">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
